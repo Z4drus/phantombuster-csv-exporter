@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "CSV Table Exporter",
+    "version": "2.1",
+    "description": "Extract HTML tables from pages and download as CSV. Supports automatic pagination and removes duplicates automatically.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Export to CSV"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+   
