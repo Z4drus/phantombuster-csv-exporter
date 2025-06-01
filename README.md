@@ -63,7 +63,7 @@ Our advanced deduplication algorithm automatically identifies and removes duplic
 
 1. **Download the Extension**
    ```
-   git clone https://github.com/yourusername/phantombuster-csv-exporter.git
+   git clone https://github.com/Z4drus/phantombuster-csv-exporter.git
    cd phantombuster-csv-exporter
    ```
 
